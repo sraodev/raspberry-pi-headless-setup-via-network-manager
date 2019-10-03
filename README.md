@@ -78,4 +78,10 @@ Notice the changed out put from nmcli dev status and nmcli dev wifi.
 
 Show active connections with nmcli con show -a.
 
-Take down a connection with sudo nmcli con down connection_name and bring it back up with sudo nmcli con up connection_name.
+Take down a connection with sudo nmcli con down connection_name and bring it back up with sudo nmcli con up connection_name.\
+
+## You can use Raspi-config at any time. To start it, enter the following at the Linux command line:
+
+```
+sudo raspi-config
+```
